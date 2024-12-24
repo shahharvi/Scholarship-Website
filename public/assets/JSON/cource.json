@@ -1,0 +1,34 @@
+{
+    "diploma": [
+        "Polytechnic Diploma",
+        "ITI Certificate"
+    ],
+    "undergraduate": [
+        "Arts (BA)",
+        "Science (BSc)",
+        "Commerce (BCom)",
+        "Engineering (BE/BTech)",
+        "Technology (BTech)",
+        "Business Administration (BBA)",
+        "Computer Applications (BCA)",
+        "Education (BEd)",
+        "Law (LLB)",
+        "Design (BDes)",
+        "Pharmacy (BPharm)",
+        "Medicine (MBBS)"
+    ],
+    "postgraduate": [
+        "Arts (MA)",
+        "Science (MSc)",
+        "Commerce (MCom)",
+        "Engineering (ME/MTech)",
+        "Business Administration (MBA)",
+        "Computer Applications (MCA)",
+        "Education (MEd)",
+        "Law (LLM)",
+        "Design (MDes)",
+        "Pharmacy (MPharm)",
+        "Medicine (MD, MS)"
+    ]
+
+}

@@ -1,0 +1,202 @@
+/* Container for the search bar */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #7c6969;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+header nav a:hover {
+    background-color: #ddd;
+    color: #0A4368;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0c4a73;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Container for the search bar */
+.search-container {
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f8f9fa; Optional: background color for better visibility */
+}
+
+.search-container form {
+    width: 100%;
+    max-width: 900px; /* Optional: you can set a max-width for better layout */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-bar {
+    width: 100%; /* Make it take full width */
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.search-bar:focus {
+    border-color: #7c6969;
+    outline: none;
+}
+
+.search-btn {
+    position: absolute;
+    right: 10px; /* Align button to the right */
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center the button */
+    padding: 10px 20px;
+    /* background-color: #007bff; */
+    color: rgb(17, 17, 16);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.search-btn i {
+    font-size: 18px; /* Icon size */
+}
+
+
+/* scholarship cards */
+
+    /* Container styling to limit cards to 3 per row */
+    .scholarship-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        list-style: none;
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .scholarship-list li {
+        flex: 1 1 calc(25% - 1rem); /* Three cards per row with spacing */
+        max-width: calc(25% - 1rem);
+    }
+
+    /* Scholarship card styling */
+    .scholarship-card {
+        width: 100%;
+        height: 15rem;
+        border-radius: 10px;
+        background-color: white;
+        border: 2px solid #8B4513; /* Brown border */
+        color: #333;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    }
+
+    .scholarship-card:hover {
+        background-color: #f4f4f4;
+    }
+
+    /* Styling for card title and text */
+    .scholarship-card h6,
+    .scholarship-card p {
+        margin: 0.5rem 0;
+    }
+
+    /* "View More" button styling */
+    .view-more-btn {
+        background-color: #8B4513; /* Brown background */
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem; /* Increased padding */
+        border-radius: 5px;
+        margin-top: auto;
+        cursor: pointer;
+        font-size: 1rem; /* Larger font size */
+        transition: background-color 0.3s ease;
+        width: fit-content; /* Button adjusts to content size */
+    }
+
+    .view-more-btn:hover {
+        background-color: #A0522D; /* Darker brown on hover */
+    }
+
+    /* Centered "View All" button styling */
+    .view-all-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+
+    .view-all-btn {
+        background-color: #8B4513;
+        color: white;
+        padding: 0.75rem 2rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .view-all-btn:hover {
+        background-color: #A0522D;
+    }
+
